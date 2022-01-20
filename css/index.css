@@ -204,3 +204,33 @@ nav {
 .nav-common:nth-child(3) {
     background: -webkit-linear-gradient(left, #34C2A9, #6CD559);
 }
+
+
+/* subnav-entry */
+
+.subnav-entry {
+    display: flex;
+    border-radius: 8px;
+    margin: 0 4px;
+    padding: 5px 0;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.subnav-entry li {
+    flex: 20%;
+}
+
+.subnav-entry a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subnav-entry-icon {
+    width: 28px;
+    height: 28px;
+    margin-top: 4px;
+    background: url(../images/subnav-bg.png) no-repeat 0 0;
+    background-size: 28px auto;
+}
