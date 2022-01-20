@@ -234,3 +234,74 @@ nav {
     background: url(../images/subnav-bg.png) no-repeat 0 0;
     background-size: 28px auto;
 }
+
+
+/* sales-box */
+
+.sales-box {
+    border-top: 1px solid #bbb;
+    background-color: #fff;
+    margin: 4px;
+}
+
+.sales-hd {
+    position: relative;
+    height: 44px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sales-hd h2 {
+    position: relative;
+    text-indent: -999px;
+    overflow: hidden;
+}
+
+.sales-hd h2::after {
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    content: "";
+    width: 79px;
+    height: 15px;
+    background: url(../images/hot.png) no-repeat 0 -20px;
+    background-size: 79px auto;
+}
+
+.more {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    background: -webkit-linear-gradient(left, #FF506C, #FF6BC6);
+    padding: 3px 20px 3px 10px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.more::after {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    content: "";
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+
+.row {
+    display: flex;
+}
+
+.row a {
+    flex: 1;
+    border-bottom: 1px solid #eee;
+}
+
+.row a img {
+    width: 100%;
+}
+
+.row a:nth-child(1) {
+    border-right: 1px solid #eee;
+}
